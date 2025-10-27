@@ -1,3 +1,9 @@
+print("Thank you for joining the Hexorcist community!")
+print("We are excited to have you on board.")
+print("As part of our initiation, we require that you participate in performing your first hexorcism ritual.")
+number_string = input ("Please enter your string: ")
+original_base = int(input("Please enter the original base of your string (2-36): "))
+target_base = int(input("Please enter the target base (2-36): "))
 def to_decimal(number_string, original_base):
     digits = "0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ"
     number_string = number_string.upper()
